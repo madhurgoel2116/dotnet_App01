@@ -41,10 +41,5 @@ jobs:
         echo "Lorem ipsum dolor sit amet" > path/to/dir-1/file1.txt
         echo "Hello world from file #2" > path/to/dir-2/file2.txt
 
-    # Upload a single file artifact
-    - name: 'Upload artifact #1'
-      uses: ./
-      with:
-        name: 'Artifact-A-${{ matrix.runs-on }}'
-        path: path/to/dir-1/file1.txt
+    
 
