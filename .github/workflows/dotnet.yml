@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: linux-latest
 
     steps:
     - uses: actions/checkout@v3
@@ -26,11 +26,7 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - uses: upload-artifacts@v3
-    - name: Upload Artifacts
-      uses: ./
-      with:
-        path: path/to/dir-1/file1.txt
+   
      
        
 
