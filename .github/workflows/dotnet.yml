@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
@@ -28,8 +28,7 @@ jobs:
       run: dotnet test --no-build --verbosity normal
     - uses: actions/upload-artifacts@v3
     - name: Uploaded Artifacts
-      with:
-         Path: path/to/artifact/world.txt
+      
    
      
        
