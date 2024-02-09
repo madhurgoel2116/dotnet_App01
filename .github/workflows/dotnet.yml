@@ -30,12 +30,12 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
           name: build
-          path: C:\Users\Dell\Downloads\build
+          path: /home/runner/work/firstApplication/firstApplication/bin/Debug/net6.0
           
     - uses: actions/download-artifact@v3
       with:
        name: build
-       path: C:\Users\Dell\Downloads\build
+       path: C:/Users/Dell/Downloads/build
        
      
        
