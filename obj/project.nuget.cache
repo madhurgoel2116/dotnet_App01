@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oS9baxs8L0G06ygLbBbjZX81XjcADtM1cHlc6T7asUOgydq2yqJmBntLNFpx9WjVRrlIIR0JgIzVz+T+Wvqpzw==",
+  "dgSpecHash": "jLgO6mP36odV2sFYDlo4qPet3gKKRoAOLvFsvsfTFmasuR5BGXW+2jspblsSWpktGHvbIfY38+2A/Ejot/rAkA==",
   "success": true,
-  "projectFilePath": "D:\\dotnet project\\FirstApplication\\FirstApplication.csproj",
+  "projectFilePath": "D:\\dotnet project\\FirstApplication\\firstApplication\\FirstApplication.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
