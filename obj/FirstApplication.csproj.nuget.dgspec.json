@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dotnet project\\FirstApplication\\FirstApplication.csproj": {}
+    "D:\\dotnet project\\FirstApplication\\firstApplication\\FirstApplication.csproj": {}
   },
   "projects": {
-    "D:\\dotnet project\\FirstApplication\\FirstApplication.csproj": {
+    "D:\\dotnet project\\FirstApplication\\firstApplication\\FirstApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotnet project\\FirstApplication\\FirstApplication.csproj",
+        "projectUniqueName": "D:\\dotnet project\\FirstApplication\\firstApplication\\FirstApplication.csproj",
         "projectName": "FirstApplication",
-        "projectPath": "D:\\dotnet project\\FirstApplication\\FirstApplication.csproj",
+        "projectPath": "D:\\dotnet project\\FirstApplication\\firstApplication\\FirstApplication.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\dotnet project\\FirstApplication\\obj\\",
+        "outputPath": "D:\\dotnet project\\FirstApplication\\firstApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
