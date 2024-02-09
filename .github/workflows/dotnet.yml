@@ -39,7 +39,7 @@ jobs:
       steps:
        - uses: actions/download-artifact@v3 
          with:
-           name: my-artifact
+           name: build
            path: C:\Users\Dell\Downloads\build
         
        
