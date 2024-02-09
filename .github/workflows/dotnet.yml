@@ -32,14 +32,15 @@ jobs:
           name: build
           path: /home/runner/work/firstApplication/firstApplication/bin/Debug/net6.0
 
-      download-artifact:
+  download-artifact:
+        
       runs-on: self-hosted
 
       steps:
-       - uses: actions/download-artifact@v3
-       with:
-        name: build
-        path: C:\Users\Dell\Downloads\build
+       - uses: actions/download-artifact@v3 
+         with:
+           name: my-artifact
+           path: C:\Users\Dell\Downloads\build
         
        
      
