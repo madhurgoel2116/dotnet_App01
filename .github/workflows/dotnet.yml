@@ -36,13 +36,20 @@ jobs:
         
       runs-on: self-hosted
 
+      # steps:
+      #  - uses: actions/download-artifact@v3 
+      #    with:
+      #      name: Build
+      #      path: /build
       steps:
-       - uses: actions/download-artifact@v3 
-         with:
-           name: build
-           path: Build
-        
-       
+      - uses: actions/download-artifact@v3
+        with:
+            name: Build
+            path: build
+      - run: zip -r build.zip build/
+      - uses: ncipollo/release-action@v1
+        with:
+            artifacts: "build.zip"
      
        
 
