@@ -34,8 +34,8 @@ jobs:
           
     - uses: actions/download-artifact@v4
       with:
-       name: build
-       path: /Users/Dell/Downloads/build
+       name: my-artifact
+       
      
        
 
