@@ -40,6 +40,7 @@ jobs:
        - uses: actions/download-artifact@v3 
          with:
            name: build
+           uses: /home/runner/work/firstApplication/firstApplication/bin/Debug/net6.0
            path: C:\Users\Dell\Downloads
         
        
