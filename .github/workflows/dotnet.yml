@@ -32,7 +32,7 @@ jobs:
           name: build
           path: /home/runner/work/firstApplication/firstApplication/bin/Debug/net6.0
           
-    - uses: actions/download-artifact@v4
+    - uses: actions/download-artifact@v3
       with:
        name: build
        path: \Users\Dell\Downloads\build
